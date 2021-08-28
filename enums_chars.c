@@ -11,7 +11,7 @@ int main()
     char myEscapeChar = '\n';
     int myAge = 22;
 
-    printf("First letter of my name is %c %cMy age is %d", myCharacter, myEscapeChar, myAge);
+    printf ("First letter of my name is %c %cMy age is %d", myCharacter, myEscapeChar, myAge);
 
 
     return 0;
