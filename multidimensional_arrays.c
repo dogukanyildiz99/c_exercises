@@ -9,7 +9,7 @@ int main() {
   char vowels[1][5] = {
     {'a', 'e', 'i', 'o', 'u'}
     };
-  
+
   /* array visualization
   5 columns 1 rows
      a e i o u
@@ -39,5 +39,19 @@ int main() {
           a e i o u
     */
 
+    // 3 rows 4 columns
+    int a[3][4] = {
+    {0, 1, 2, 3} ,   /*  initializers for row indexed by 0 */
+    {4, 5, 6, 7} ,   /*  initializers for row indexed by 1 */
+    {8, 9, 10, 11}   /*  initializers for row indexed by 2 */
+    };
+    /* this one is exactly the same as the initialization above
+    int a[3][4] = {0,1,2,3,4,5,6,7,8,9,10,11};
+    */
+    /* to access a value inside a multidimensional array you 
+    need to specify the location of the item by using a[x][y];
+    */
+    int val = a[2][3];
+    
   return 0;
 }
