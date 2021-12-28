@@ -116,7 +116,7 @@ int main()
     char bolum[100];
     int sinif;
 
-    printf("1 - Sisteme ogrenci ekleme\n2 - Sistemden ogrenci silme\n3 - Sistemde ogrenci arama\n4 - Kayitli ogrencileri listele\n5 - Programı bitir\n");
+    printf("1 - Sisteme ogrenci ekleme\n2 - Sistemden ogrenci silme\n3 - Sistemde ogrenci arama\n4 - Kayitli ogrencileri listele\n5 - Programi bitir\n");
 
     do
     {
