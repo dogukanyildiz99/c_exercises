@@ -60,7 +60,8 @@ void Ekle(unsigned long long ogrenciNo, char* ad, char* soyad, char* bolum, int 
         // son elemana geldigimizde tmp->next == null olacaktir
         // bu durumda tmp = son eleman olur
         tmp = head;
-        while(tmp->next != NULL){
+        while(tmp->next != NULL)
+        {
         	tmp = tmp->next;
 		}
 		// tail tmp ile ayni elemani/son elemani gosterir
@@ -79,8 +80,8 @@ void Sil(unsigned long long ogrenciNo)
         {
             printf("%llu numarali kayit bulunmustur!\n", ogrenciNo);
             // ilk eleman silinecekse ( if(temp1 == head) yazilabilir ) ikinci eleman (head->next)'i
-	    // bir onceki eleman olarak null deger gostermelidir; cunku kendisi ilk eleman olacak
-	    if(temp1 == temp2)
+			// bir onceki eleman olarak null deger gostermelidir; cunku kendisi ilk eleman olacak
+			if(temp1 == temp2)
             {
             	head->next->prev = NULL;
                 head = head -> next;
@@ -204,8 +205,8 @@ int main()
                 Listele();
                 break;
             case 5:
-		sonListele();
-		break;
+				sonListele();
+				break;
         }
     } while (a != 6);
     printf("\nProgram sonlanmistir!\n");
