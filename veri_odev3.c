@@ -138,7 +138,7 @@ int main()
                 Ekle(ogrenciNo, ad, soyad, bolum, sinif);
                 break;
             case 2:
-                printf("Kayittam silmek istediginiz Ogrenci No: ");
+                printf("Kayittan silmek istediginiz Ogrenci No: ");
                 scanf("%llu", &ogrenciNo);
                 Sil(ogrenciNo);
                 break;
@@ -152,4 +152,5 @@ int main()
                 break;
         }
     } while (a != 5);
+    printf("\nProgram sonlanmistir!\n");
 }
